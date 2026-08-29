@@ -4,20 +4,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.Scanner;
 import java.util.Random;
 
-/*
-1. Defina as suas 3 opções
-        String[] opcoes = {"Opção A", "Opção B", "Opção C"};
-
-2. Crie o gerador de números aleatórios
-        Random random = new Random();
-
-3. Sorteie um índice (0, 1 ou 2)
-        int indiceSorteado = random.nextInt(opcoes.length);
-
-4. Imprima a opção escolhida
-        System.out.println("A escolha foi: " + opcoes[indiceSorteado]);
- */
-
 public class Main { //Variáveis ========================================================
     private static String Estado = "";
     private static int hunger = 0;
